@@ -1,0 +1,11 @@
+﻿<Window x:Class="Candystorm2WPF.VideoPlayerWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Candystorm2WPF"
+        mc:Ignorable="d"
+        Title="VideoPlayerWindow" Height="222" Width="256" Background="#FFFFC5C7">
+        
+    <MediaElement x:Name="VideoPlayer" Margin="0,0,0,0" MediaEnded="VideoPlayer_MediaEnded" MediaFailed="VideoPlayer_MediaFailed" MediaOpened="VideoPlayer_MediaOpened" UnloadedBehavior="Manual"/>
+</Window>
